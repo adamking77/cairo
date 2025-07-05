@@ -74,7 +74,7 @@ const HeroSection = () => {
     <section ref={ref} className="min-h-screen flex items-center justify-start relative overflow-hidden pt-48 pb-24">
       <div className="max-w-5xl mx-auto px-16 lg:px-20 w-full">
         <div className="grid lg:grid-cols-12 gap-16">
-          <div className="lg:col-span-10 animate-fade-in">
+          <div className="col-span-full lg:col-span-10 animate-fade-in">
             <div className="space-y-12">
               <div className="space-y-8">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-[0.9] tracking-tight text-foreground">
@@ -89,7 +89,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="lg:col-span-2 flex justify-end items-start">
+          <div className="hidden lg:flex lg:col-span-2 justify-end items-start">
             <div className="w-1 h-48 bg-foreground/10"></div>
           </div>
         </div>
