@@ -73,7 +73,7 @@ const HeroSection = () => {
   return (
     <section ref={ref} className="min-h-screen flex items-center justify-start relative overflow-hidden pt-48 pb-24">
       <div className="max-w-5xl mx-auto px-16 lg:px-20 w-full">
-        <div className="grid lg:grid-cols-12 gap-16 items-center">
+        <div className="grid lg:grid-cols-12 gap-16">
           <div className="lg:col-span-10 animate-fade-in">
             <div className="space-y-12">
               <div className="space-y-8">
