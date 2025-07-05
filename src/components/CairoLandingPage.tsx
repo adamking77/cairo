@@ -82,15 +82,15 @@ const HeroSection = () => {
                 </h1>
                 
                 {/* Simple centered vertical line */}
-                <div className="flex justify-center py-8">
-                  <div className="w-px h-32 bg-border"></div>
+                <div className="flex justify-center py-6">
+                  <div className="w-px h-24 bg-border"></div>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="lg:col-span-2 flex justify-end">
-            <div className="w-1 h-96 bg-foreground/10"></div>
+            <div className="w-1 h-32 bg-foreground/10"></div>
           </div>
         </div>
       </div>
