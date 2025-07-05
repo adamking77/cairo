@@ -263,10 +263,10 @@ const ProblemDefinitionSection = () => {
   return (
     <section ref={ref} className="py-24 lg:py-32 bg-secondary/30">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
-        <div className={`grid grid-cols-12 gap-20 transition-all duration-1000 ${
+        <div className={`grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-20 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <div className="col-span-12 lg:col-span-6">
+          <div className="col-span-1 lg:col-span-6">
             <div className="space-y-12">
               <div className="space-y-8">
                 <h2 className="text-4xl md:text-5xl font-light leading-[1.1] tracking-tight text-foreground">
@@ -299,7 +299,7 @@ const ProblemDefinitionSection = () => {
             </div>
           </div>
           
-          <div className="col-span-12 lg:col-span-6">
+          <div className="col-span-1 lg:col-span-6">
             <div className="space-y-12">
               <div className="space-y-8">
                 <h3 className="text-2xl md:text-3xl font-light tracking-tight text-foreground">
@@ -341,8 +341,8 @@ const SolutionPreviewSection = () => {
         <div className={`space-y-16 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <div className="grid grid-cols-12 gap-16">
-            <div className="col-span-12 lg:col-span-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+            <div className="col-span-1 lg:col-span-8">
               <div className="space-y-12">
                 <div className="space-y-8">
                   <h2 className="text-3xl md:text-4xl font-light tracking-tight text-foreground">
