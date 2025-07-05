@@ -77,7 +77,7 @@ const HeroSection = () => {
           <div className="col-span-full lg:col-span-10 animate-fade-in">
             <div className="space-y-12">
               <div className="space-y-8">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-[0.9] tracking-tight text-foreground">
+                <h1 className="text-5xl md:text-5xl lg:text-6xl font-light leading-tight md:leading-[0.9] tracking-tight text-foreground">
                   Before You Scrap Your AI Project, Read This
                 </h1>
                 
